@@ -1,0 +1,19 @@
+# bytetrack.yaml (Ultralytics-compatible)
+tracker_type: bytetrack
+
+# Core thresholds (new names)
+track_high_thresh: 0.45 # was: track_thresh
+track_low_thresh: 0.10
+new_track_thresh: 0.55
+
+# Association & lifecycle
+match_thresh: 0.8
+track_buffer: 40
+min_box_area: 20
+mot20: false
+fuse_score: true
+
+# Optional guardrails (detector side)
+conf_thres: 0.35
+iou_thres: 0.5
+frame_rate: 30
