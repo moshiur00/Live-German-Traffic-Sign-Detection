@@ -138,11 +138,9 @@ frame_rate: 30
 
 ## 📊 Example Results
 
-### Live Detection & Tracking
-*(insert GIF or screenshot here)*  
+### Live Detection & Tracking From Video
+![Detection Result](outputs/video_output.gif)
 
-### Video Processing
-*(insert before/after screenshot here)*  
 
 ---
 
